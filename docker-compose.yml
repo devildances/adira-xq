@@ -55,7 +55,7 @@ services:
     container_name: "adira-spark-worker-3"
     ports:
       - "9093:8080"
-      - "7001:7000"
+      - "7002:7000"
     depends_on:
       - spark-master
     environment:
